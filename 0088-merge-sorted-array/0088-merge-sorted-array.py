@@ -1,0 +1,20 @@
+class Solution(object):
+    def merge(self, nums1, m, nums2, n):
+        left=right=0
+        temp=[]
+        while left<m and right<n:
+            if nums1[left] <= nums2[right]:
+                temp.append(nums1[left])
+                left+=1
+            else:
+                temp.append(nums2[right])
+                right+=1
+        while left<m:
+            temp.append(nums1[left])
+            left+=1
+        while right<n:
+            temp.append(nums2[right])
+            right+=1
+        for i in range(m + n):
+            nums1[i] = temp[i]
+        return nums1
