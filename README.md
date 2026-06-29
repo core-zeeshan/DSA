@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/core-zeeshan/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/core-zeeshan/DSA/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/core-zeeshan/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0344-reverse-string](https://github.com/core-zeeshan/DSA/tree/master/0344-reverse-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/core-zeeshan/DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
@@ -34,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/core-zeeshan/DSA/tree/master/0016-3sum-closest) |
 | [0088-merge-sorted-array](https://github.com/core-zeeshan/DSA/tree/master/0088-merge-sorted-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/core-zeeshan/DSA/tree/master/0977-squares-of-a-sorted-array) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/core-zeeshan/DSA/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
