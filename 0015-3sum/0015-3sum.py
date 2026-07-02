@@ -1,3 +1,4 @@
+
 class Solution(object):
     def threeSum(self, nums):
         nums.sort()
@@ -5,7 +6,6 @@ class Solution(object):
 
         for i in range(len(nums) - 2):
 
-            # Skip duplicate first elements
             if i > 0 and nums[i] == nums[i - 1]:
                 continue
 
@@ -13,6 +13,7 @@ class Solution(object):
             right = len(nums) - 1
 
             while left < right:
+
                 total = nums[i] + nums[left] + nums[right]
 
                 if total == 0:
@@ -21,7 +22,6 @@ class Solution(object):
                     left += 1
                     right -= 1
 
-                    # Skip duplicates
                     while left < right and nums[left] == nums[left - 1]:
                         left += 1
 
